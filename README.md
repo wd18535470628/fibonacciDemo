@@ -11,10 +11,10 @@
 	    } else if (n == 1 || n == 2) {  
 	        return 1;  
 	    } else {  
-	        int start = 3;  
+	        int flag = 3;  
 	        int f = 1;//第1位  
 	        int b = 1;//第2位  
-	        while (start++ <= n) {  
+	        while (flag++ <= n) {  
 	            //每次循环都把b和f右移一位，最终b就是我们要的值  
 	            //当n=3时，只需要执行1次  
 	            //当n=4时，移动1次以后要再移动1次  
